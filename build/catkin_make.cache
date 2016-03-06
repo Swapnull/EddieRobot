@@ -1,2 +1,0 @@
-eddie_serial_driver
--DCATKIN_DEVEL_PREFIX=/home/kevlangelo/eddie_serial_driver/devel -DCMAKE_INSTALL_PREFIX=/home/kevlangelo/eddie_serial_driver/install -G Unix Makefiles

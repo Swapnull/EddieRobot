@@ -1,9 +1,0 @@
-/home/kevlangelo/eddie_serial_driver/build/eddie_serial_driver/CMakeFiles/_catkin_empty_exported_target.dir
-/home/kevlangelo/eddie_serial_driver/build/CMakeFiles/clean_test_results.dir
-/home/kevlangelo/eddie_serial_driver/build/CMakeFiles/clean_test_results_Project.dir
-/home/kevlangelo/eddie_serial_driver/build/CMakeFiles/download_extra_data.dir
-/home/kevlangelo/eddie_serial_driver/build/CMakeFiles/doxygen.dir
-/home/kevlangelo/eddie_serial_driver/build/gtest/CMakeFiles/gtest.dir
-/home/kevlangelo/eddie_serial_driver/build/gtest/CMakeFiles/gtest_main.dir
-/home/kevlangelo/eddie_serial_driver/build/CMakeFiles/run_tests.dir
-/home/kevlangelo/eddie_serial_driver/build/CMakeFiles/tests.dir

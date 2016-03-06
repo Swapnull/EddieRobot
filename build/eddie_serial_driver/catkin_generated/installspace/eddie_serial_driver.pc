@@ -1,8 +1,0 @@
-prefix=/home/kevlangelo/eddie_serial_driver/install
-
-Name: eddie_serial_driver
-Description: Description of eddie_serial_driver
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/kevlangelo/eddie_serial_driver/install/lib 
-Requires: 
