@@ -29,6 +29,10 @@ class Eddie:
 				print ''
 				self.ser.write(s.encode())
 
+		elif shape == 'hexagon':
+			s = 'GO D1 D1\r'
+			print s
+			self.ser.write(s.encode())
 
 		# turn right
 		elif shape == 'pentagon':

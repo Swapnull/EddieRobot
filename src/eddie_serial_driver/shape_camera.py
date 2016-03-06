@@ -21,6 +21,9 @@ def detect_shape(in_contour):
     elif len(shape_approx_polygon) == 5:
         shape_name = "pentagon"
 
+    elif len(shape_approx_polygon) == 6:
+        shape_name = "hexagon"
+
     else:
         shape_name = "circle"
 
