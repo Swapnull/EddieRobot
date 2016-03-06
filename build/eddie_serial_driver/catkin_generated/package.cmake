@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "eddie_serial_driver")
+set(eddie_serial_driver_MAINTAINER "kevlangelo <kevlangelo@todo.todo>")
+set(eddie_serial_driver_DEPRECATED "")
+set(eddie_serial_driver_VERSION "0.0.0")
+set(eddie_serial_driver_BUILD_DEPENDS "std_msgs" "rospy")
+set(eddie_serial_driver_RUN_DEPENDS "std_msgs" "rospy")
+set(eddie_serial_driver_BUILDTOOL_DEPENDS "catkin")
