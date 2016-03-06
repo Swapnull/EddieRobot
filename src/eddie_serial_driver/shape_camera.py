@@ -3,6 +3,7 @@
 import cv2
 import numpy as np
 import rospy
+import sys
 from std_msgs.msg import String
 
 def detect_shape(in_contour):
@@ -74,8 +75,13 @@ def detect_shape_and_return_frame(origin_frame, low_thresh, up_thresh):
 
 if __name__ == "__main__":
 
+    cam_num = None
+    if len(sys.argv) > 1 :
+        # Use the argument to specify camera number
+        cam_num = int(sys.argv[1])
+
     # Open up a Video Capture object to get video from the camera
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(cam_num)
     pub = rospy.Publisher('shape_name', String, queue_size=30)
     rospy.init_node('shape_camera', anonymous=True)
 
