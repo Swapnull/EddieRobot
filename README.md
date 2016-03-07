@@ -11,4 +11,4 @@ rosrun eddie_serial_driver serial_driver.py
 rosrun eddie_serial_driver shape_camera.py
 ```
 
-There is a wiki available at (https://github.com/Swapnull/EddieRobot/wiki)[https://github.com/Swapnull/EddieRobot/wiki]
+There is a wiki available at [https://github.com/Swapnull/EddieRobot/wiki](https://github.com/Swapnull/EddieRobot/wiki)
