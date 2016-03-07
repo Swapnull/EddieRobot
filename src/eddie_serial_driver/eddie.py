@@ -18,16 +18,16 @@ class Eddie:
 			self.ser.write(s.encode())
 
 		elif shape == 'square':
-				s = 'STOP 0\r'
-				print s
-				print 'stopping'
-				self.ser.write(s.encode())
+			s = 'STOP 0\r'
+			print s
+			print 'stopping'
+			self.ser.write(s.encode())
 
 		elif shape == 'circle':
-				s = 'go 50 D1\r'
-				print s
-				print ''
-				self.ser.write(s.encode())
+			s = 'go 50 D1\r'
+			print s
+			print ''
+			self.ser.write(s.encode())
 
 		elif shape == 'hexagon':
 			s = 'GO D1 D1\r'
