@@ -14,7 +14,9 @@ keys = Keypress()
 
 while True:
 	key = keys.wait_for_input()
-	if key != None:
-		print "sending", key
-		mySocket.sendto(key,(SERVER_IP,PORT_NUMBER))
+	if key == None:
+		key = 'square'
+
+	#print "sending", key
+	mySocket.sendto(key,(SERVER_IP,PORT_NUMBER))
 sys.exit()

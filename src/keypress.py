@@ -6,6 +6,7 @@ class Keypress:
         print "Are you using a:\n [0] keyboard \n [1] PS4 controller"
         self.mode = int(raw_input())
 
+
     def wait_for_input(self):
         key = getch()
         print "you pressed:", key
@@ -19,8 +20,9 @@ class Keypress:
             return 'hexagon' #backwards
         elif key == 'e': 
             exit() #exit the program
-        elif self.mode == 1 or key == 'z':
-            return 'square' #stop 
+        else:
+            print "no valid keypress"
+
 
 if __name__ == '__main__':
     keys = Keypress()
